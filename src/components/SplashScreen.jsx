@@ -65,7 +65,7 @@ export default function SplashScreen({ onStart }) {
           className="text-5xl sm:text-6xl md:text-7xl font-bold tracking-tight"
         >
           <span className="bg-gradient-to-r from-[#22c55e] via-[#4ade80] to-[#06b6d4] bg-clip-text text-transparent drop-shadow-[0_0_30px_rgba(34,197,94,0.3)]">
-            EMOTO-SCAN
+            FACESENSE
           </span>
           <span className="block text-2xl sm:text-3xl md:text-4xl mt-1 font-light tracking-[0.3em] text-slate-400">
             AI
