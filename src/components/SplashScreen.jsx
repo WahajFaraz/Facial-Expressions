@@ -120,13 +120,18 @@ export default function SplashScreen({ onStart }) {
           variants={item}
           className="mt-8 flex items-center gap-2 text-[10px] text-slate-700 tracking-widest uppercase"
         >
-          <span className="inline-block w-1.5 h-1.5 rounded-full bg-[#22c55e] animate-pulse" />
-          <span>Mady By: </span>
-          <ul>
-            <li>Wahaj Faraz</li>
-            <li>Hamza Islam</li>
-            <li>Syed Muhammad Faizan Azfar</li>
-          </ul>
+
+          <div className="flex flex-col">
+  <span className="text-2xl font-bold mb-2">
+    Made By:
+  </span>
+
+  <ul className="list-disc pl-6 mt-2 text-lg">
+    <li>Wahaj Faraz</li>
+    <li>Hamza Islam</li>
+    <li>Syed Muhammad Faizan Azfar</li>
+  </ul>
+</div>
         </motion.div>
       </motion.div>
     </div>
