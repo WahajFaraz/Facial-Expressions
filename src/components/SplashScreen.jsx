@@ -94,7 +94,7 @@ export default function SplashScreen({ onStart }) {
           variants={item}
           className="mt-6 text-xs text-slate-600 max-w-xs leading-relaxed"
         >
-          Biometric emotion recognition powered by client-side neural networks. No data leaves your device.
+          Biometric emotion recognition powered by client-side neural networks.
         </motion.p>
 
         {/* Pulse button */}
@@ -121,7 +121,12 @@ export default function SplashScreen({ onStart }) {
           className="mt-8 flex items-center gap-2 text-[10px] text-slate-700 tracking-widest uppercase"
         >
           <span className="inline-block w-1.5 h-1.5 rounded-full bg-[#22c55e] animate-pulse" />
-          System Standby
+          <span>Mady By: </span>
+          <ul>
+            <li>Wahaj Faraz</li>
+            <li>Hamza Islam</li>
+            <li>Syed Muhammad Faizan Azfar</li>
+          </ul>
         </motion.div>
       </motion.div>
     </div>
