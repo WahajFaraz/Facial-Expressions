@@ -127,9 +127,9 @@ export default function SplashScreen({ onStart }) {
   </span>
 
   <ul className="list-disc pl-6 mt-2 text-lg">
-    <li>Wahaj Faraz</li>
-    <li>Hamza Islam</li>
-    <li>Syed Muhammad Faizan Azfar</li>
+    <li>Wahaj Faraz 2025F-BCS-116</li>
+    <li>Hamza Islam 2025F-BCS-109</li>
+    <li>Syed Muhammad Faizan Azfar 2025F-BCS-329</li>
   </ul>
 </div>
         </motion.div>
